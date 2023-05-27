@@ -108,18 +108,18 @@
          border: 2px solid #0081bc;
          border-radius: 20px 3px 3px 20px;
          color: #0081bc;
-         background: #FFF url(../img/bullet_list_02.svg) no-repeat 3px center;
+         background: #FFF url(../img/bullet_list_02.svg) no-repeat 5px center;
          background-size: auto;
 
          &:hover {
             color: #FFF;
-            background: #0081bc url(../img/bullet_list_01.svg) no-repeat 3px center;
+            background: #0081bc url(../img/bullet_list_01.svg) no-repeat 5px center;
             background-size: auto;
             text-decoration: none;
          }
          &.active {
             color: #FFF;
-            background: #40beb0 url(../img/bullet_list_01.svg) no-repeat 3px center;
+            background: #40beb0 url(../img/bullet_list_01.svg) no-repeat 5px center;
             background-size: auto;
             text-decoration: none;
             pointer-events: none;
