@@ -31,10 +31,10 @@
 
                         <div class="nav__tools">
                             <a href="//www.facebook.com/taiwanwatershow/" title="Facebook"><img
-                                    src="./img/icon_facebook.png" /></a>
+                                    src="./img/icon_facebook.svg" /></a>
                             <a href="//www.linkedin.com/company/31086045/admin/" title="Linkedin"><img
-                                    src="./img/icon_linkedin.png" /></a>
-                            <a href="//twitter.com/TaiwanWeek" title="Twitter"><img src="./img/icon_twitter.png" /></a>
+                                    src="./img/icon_linkedin.svg" /></a>
+                            <a href="//twitter.com/TaiwanWeek" title="Twitter"><img src="./img/icon_twitter.svg" /></a>
                         </div>
                     </div>
                     <div class="col-8 header__right">
@@ -162,10 +162,10 @@
 
                         <div class="nav__tools">
                             <a href="//www.facebook.com/taiwanwatershow/" title="Facebook"><img
-                                    src="./img/icon_facebook.png" /></a>
+                                    src="./img/icon_facebook.svg" /></a>
                             <a href="//www.linkedin.com/company/31086045/admin/" title="Linkedin"><img
-                                    src="./img/icon_linkedin.png" /></a>
-                            <a href="//twitter.com/TaiwanWeek" title="Twitter"><img src="./img/icon_twitter.png" /></a>
+                                    src="./img/icon_linkedin.svg" /></a>
+                            <a href="//twitter.com/TaiwanWeek" title="Twitter"><img src="./img/icon_twitter.svg" /></a>
                         </div>
                     </div>
                 </div>

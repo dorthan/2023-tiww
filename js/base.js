@@ -4,6 +4,7 @@ $(function () {
     spanHeight();
     $(window).on('resize',spanHeight);
     setTimeout(spanHeight, 100);
+    setTimeout(spanHeight, 1000);
 });
 
 function spanHeight(){
