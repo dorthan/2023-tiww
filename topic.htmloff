@@ -40,7 +40,7 @@
                     </div>
                     <div class="col-8 header__right">
                         <div class="header__no">電子報 VOL.01</div>
-                        <div class="header__en"><a class="nav-link" href="index-en.html" title="English">English</a>
+                        <div class="header__en"><a  href="index-en.html" title="English">English</a>
                         </div>
 
                         <!-- nav -->
