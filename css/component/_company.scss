@@ -68,8 +68,9 @@
             line-height: 32px;
             margin-bottom: 15px;
             padding-left: 40px;
-            background: url(../img/bullet_focus_intro.svg) no-repeat 3px center/25px 25px, linear-gradient(to right, #21bcae 0%, #18609b 100%);
+            background: url(../img/bullet_focus_intro.svg) no-repeat 3px center / 25px 25px, linear-gradient(to right, #21bcae 0%, #18609b 100%);
             border-radius: 20px 0 0 20px;
+            background-size: auto;
             margin-left: -40px;
         }
 
@@ -80,7 +81,7 @@
             line-height: 32px;
             margin-bottom: 15px;
             padding-left: 40px;
-            background: url(../img/bullet_focus_porduct.svg) no-repeat 3px center/25px 25px, linear-gradient(to right, #21bcae 0%, #18609b 100%);
+            background: url(../img/bullet_focus_porduct.svg) no-repeat 3px center / 25px 25px, linear-gradient(to right, #21bcae 0%, #18609b 100%);
             border-radius: 20px 0 0 20px;
             background-size: auto;
             margin-left: -40px;

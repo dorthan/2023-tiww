@@ -11701,6 +11701,7 @@ img {
   background: url(../img/bullet_focus_intro.svg) no-repeat 3px center/25px 25px, -webkit-gradient(linear, left top, right top, from(#21bcae), to(#18609b));
   background: url(../img/bullet_focus_intro.svg) no-repeat 3px center/25px 25px, linear-gradient(to right, #21bcae 0%, #18609b 100%);
   border-radius: 20px 0 0 20px;
+  background-size: auto;
   margin-left: -40px;
 }
 
