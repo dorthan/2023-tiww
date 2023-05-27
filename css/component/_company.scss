@@ -17,11 +17,11 @@
         font-size: 30px;
         font-weight: 500;
         line-height: 1;
-        color: #02a1b4;
+        color: #0081bc;
         text-decoration: none;
 
         &:hover {
-            color: #02a1b4;
+            color: #0081bc;
             text-decoration: underline;
         }
 
@@ -67,7 +67,7 @@
 
     &__title {
         &-intro {
-            color: #02a1b4;
+            color: #0081bc;
             font-size: 24px;
             font-weight: 500;
             line-height: 30px;
@@ -79,7 +79,7 @@
         }
 
         &-product {
-            color: #02a1b4;
+            color: #0081bc;
             font-size: 24px;
             font-weight: 500;
             line-height: 30px;
@@ -111,12 +111,12 @@
 
             ol {
                 padding-left: 24px;
-                color: #02a1b4;
+                color: #0081bc;
             }
         }
 
         &-title {
-            color: #02a1b4;
+            color: #0081bc;
             font-size: 24px;
             font-weight: 500;
             line-height: 30px;
@@ -142,10 +142,10 @@
             line-height: 1;
             flex: 0 1 49%;
             margin-bottom: 15px;
-            border: 2px solid #02a1b4;
+            border: 2px solid #0081bc;
             border-radius: 3px;
             padding: 8px 8px 7px 36px;
-            color: #02a1b4;
+            color: #0081bc;
             background: #FFF url(../img/icon_exhibitor.png) no-repeat 5px center;
             background-size: auto;
             display: flex;
@@ -155,14 +155,14 @@
             &.active{
                 text-decoration: none;
                 color: #FFF;
-                background: #02a1b4 url(../img/icon_exhibitor-ov.png) no-repeat 5px center;
+                background: #0081bc url(../img/icon_exhibitor-ov.png) no-repeat 5px center;
                 background-size: auto;
                 pointer-events:none;
             }
             &:hover {
                 text-decoration: none;
                 color: #FFF;
-                background: #02a1b4 url(../img/icon_exhibitor-ov.png) no-repeat 5px center;
+                background: #0081bc url(../img/icon_exhibitor-ov.png) no-repeat 5px center;
                 background-size: auto;
             }
         }

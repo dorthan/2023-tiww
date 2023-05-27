@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 .header {
+    background: url(../img/bkgd_sub_header.png) no-repeat center center;
+    background-size: cover;
     &__kv {
         background: url(../img/bkgd_kv.png) no-repeat center center;
         background-size: cover;
@@ -10,7 +12,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding-top: 50px;
+        padding-top: 30px;
         padding-bottom: 20px;
     }
 
