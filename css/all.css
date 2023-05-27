@@ -10905,10 +10905,14 @@ img {
 
 .header__en {
   color: #FFF;
-  font-size: 15px;
+  font-size: 28px;
   font-weight: 100;
   line-height: 1;
   margin-bottom: 50px;
+}
+
+.header__en a {
+  color: #fff;
 }
 
 .header__slogen {
