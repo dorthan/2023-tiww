@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@mixin ellipsis($width:auto,$row:1){
+  width:$width;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: $row;
+  -webkit-box-orient: vertical;
+}

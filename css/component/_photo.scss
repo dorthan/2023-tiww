@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.photo {
+    position: relative;
+    padding-bottom: 15px;
+
+    &__caption {
+        padding-bottom: 63px;
+    }
+
+    span {
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.2;
+        margin: 5px 0 0 0;
+        color: #02a1b4;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 58px;
+    }
+
+    &.float-left {
+        margin-right: 15px;
+    }
+
+    &.float-right {
+        margin-left: 15px;
+    }
+
+}

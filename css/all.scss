@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+//vendors (Other Sass Framework, 主要的用途是用來整合第三方的 plugin 與 Framework)
+@import 
+"vendor/bootstrap/bootstrap";
+
+//module  (模組元件)
+@import
+"module/ellipsis";  
+
+
+//layout  (共用版型)
+@import
+"layout/base", 
+"layout/body",
+"layout/header",
+"layout/footer";
+
+
+//component    (各頁面主要內容) 
+@import "component/info";         
+@import "component/topic";         
+@import "component/banner";         
+@import "component/news";        
+@import "component/focus";        
+@import "component/content";        
+@import "component/photo";        
+@import "component/company";        
+@import "component/btn";        

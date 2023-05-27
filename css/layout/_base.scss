@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+$media-xs: 0 !default;
+$media-sm: 576px !default;
+$media-md: 768px !default;
+$media-lg: 992px !default;
+$media-xl: 1200px !default;
+
+
+/* Color palette */
+$color-black: #000000;
+$color-dark: #333333;
+$color-light:rgba(51, 51, 51, 0.05);
+$color-red:hsl(353, 91%, 58%);
+$color-white: #ffffff;
+
+$c-primary: #29b0cc;
+$c-main: #29b0cc;
+$c-sec: $color-dark;
+$c-light: $color-light;
+$c-error: $color-red;
+$c-white: $color-white;
+$c-black: $color-black;
+
+
+.error{
+  border:1px $c-error solid !important;  
+}
+@media (min-width: $media-lg) {
+  .text{
+    &-xs{ font-size: 1rem;}
+  }
+}
+
+
+/* Font */
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format('woff2'),
+       url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format('woff'),
+       url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff2) format('woff2'),
+       url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff) format('woff'),
+       url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.otf) format('opentype');
+}
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 400;
+   src: url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'),
+        url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'),
+        url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 500;
+   src: url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff2) format('woff2'),
+        url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff) format('woff'),
+        url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 700;
+   src: url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2) format('woff2'),
+        url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format('woff'),
+        url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 900;
+   src: url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff2) format('woff2'),
+        url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff) format('woff'),
+        url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.otf) format('opentype');
+ }
+/* 修正粗體 */
+$font-family-base: 
+'HelveticaNeue',
+'Noto Sans TC',
+'PingFangTC',
+'Microsoft JhengHei',
+'sans-serif';
+
+body,
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $font-family-base;
+  line-height: rem(24);
+}
+
+p{ 
+  font-size: font-size(16); 
+  line-height: rem(24); 
+}
+.wrap{
+  min-width: $media-lg !important;
+}
+.container{
+  min-width: $media-lg !important;
+}
+img {
+
+  image-rendering: -moz-crisp-edges;
+  /* Firefox */
+  image-rendering: -o-crisp-edges;
+  /* Opera */
+  image-rendering: -webkit-optimize-contrast;
+  /*Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE (non-standard property) */
+
+}
