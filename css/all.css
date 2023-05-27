@@ -10833,11 +10833,11 @@ p {
 }
 
 .wrap {
-  min-width: 992px !important;
+  min-width: 1440px !important;
 }
 
 .container {
-  min-width: 992px !important;
+  min-width: 1440px !important;
 }
 
 img {
@@ -10873,8 +10873,8 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .header__right {
@@ -10891,13 +10891,13 @@ img {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  padding-top: 40px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .header__no {
   color: #FFF;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: bold;
   line-height: 1;
   margin-bottom: 20px;
@@ -10906,7 +10906,7 @@ img {
 .header__en {
   color: #FFF;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 100;
   line-height: 1;
   margin-bottom: 50px;
 }
@@ -10914,29 +10914,37 @@ img {
 .header__slogen {
   color: #FFF;
   width: calc( 120% + 7px);
-  font-size: 73px;
+  font-size: 93px;
   font-weight: 500;
   line-height: 1;
   letter-spacing: 2px;
   text-align: right;
-  margin: 25px -5px 100px 0;
+  margin: 25px -5px 150px 0;
   white-space: nowrap;
 }
 
 .header__slogen-en {
   color: #f3ad0f;
-  font-size: 36px;
+  font-size: 42px;
   font-weight: 400;
   line-height: 1;
   margin-bottom: 15px;
 }
 
-.header__date, .header__location {
+.header__date {
   color: #0993d2;
-  font-size: 36px;
-  font-weight: 400;
+  font-size: 58px;
+  font-weight: 500;
   line-height: 1;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.header__location {
+  color: #0993d2;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 30px;
 }
 
 .header .nav {
@@ -10951,18 +10959,46 @@ img {
       -ms-flex-align: center;
           align-items: center;
   color: #FFF;
-  font-size: 18px;
   font-weight: 400;
   line-height: 1;
 }
 
 .header .nav-link {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
   padding: 0;
-  color: #FFF;
+  position: relative;
 }
 
 .header .nav-link:hover {
-  text-decoration: underline;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header .nav-link::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: translate(-50%, 0) scaleX(0);
+          transform: translate(-50%, 0) scaleX(0);
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+
+.header .nav-link:hover::before {
+  -webkit-transform: translate(-50%, 0) scaleX(1);
+          transform: translate(-50%, 0) scaleX(1);
 }
 
 .header .nav__tools a {
@@ -10995,7 +11031,7 @@ img {
 
 .footer__title img {
   padding-top: 15px;
-  width: 75%;
+  width: 100%;
 }
 
 .footer__item {
@@ -11017,6 +11053,7 @@ img {
       -ms-flex-pack: end;
           justify-content: end;
   margin-top: 50px;
+  margin-right: 120px;
 }
 
 .footer .nav__tools a {
@@ -11038,14 +11075,14 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   line-height: 1;
   color: #005699;
 }
 
 .info__title-img {
-  height: 50px;
+  height: 70px;
   margin-right: 5px;
   margin-left: 30px;
 }
@@ -11056,7 +11093,7 @@ img {
 }
 
 .info__subtitle {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 500;
   line-height: 1.2;
   color: #0081bc;
@@ -11090,7 +11127,7 @@ img {
 }
 
 .info__text {
-  font-size: 17px;
+  font-size: 24px;
   font-weight: 300;
   line-height: 1.5;
   text-align: left;
@@ -11119,14 +11156,14 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   line-height: 1;
   color: #005699;
 }
 
 .topic__title-img {
-  height: 50px;
+  height: 70px;
   margin-right: 5px;
   margin-left: 30px;
 }
@@ -11137,7 +11174,7 @@ img {
 }
 
 .topic__subtitle {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 500;
   line-height: 1.2;
   color: #0081bc;
@@ -11171,7 +11208,7 @@ img {
 }
 
 .topic__text {
-  font-size: 17px;
+  font-size: 24px;
   font-weight: 300;
   line-height: 1.5;
   text-align: left;
@@ -11204,14 +11241,14 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   line-height: 1;
   color: #005699;
 }
 
 .news__title-img {
-  height: 50px;
+  height: 70px;
   margin-right: 5px;
   margin-left: 30px;
 }
@@ -11222,7 +11259,7 @@ img {
 }
 
 .news__subtitle {
-  font-size: 24px;
+  font-size: 38px;
   font-weight: 400;
   line-height: 1.2;
   text-align: left;
@@ -11231,7 +11268,7 @@ img {
 }
 
 .news__text {
-  font-size: 17px;
+  font-size: 24px;
   font-weight: 300;
   line-height: 1.5;
   text-align: justify;
@@ -11245,6 +11282,7 @@ img {
 }
 
 .news__item {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11281,14 +11319,14 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   line-height: 1;
   color: #005699;
 }
 
 .focus__title-img {
-  height: 50px;
+  height: 70px;
   margin-right: 5px;
   margin-left: 30px;
 }
@@ -11305,7 +11343,7 @@ img {
 }
 
 .focus__text {
-  font-size: 17px;
+  font-size: 24px;
   font-weight: 300;
   line-height: 1.5;
   text-align: justify;
@@ -11363,30 +11401,30 @@ img {
 }
 
 .focus__col .focus__name {
-  font-size: 20px;
+  font-size: 28px;
   text-align: center;
 }
 
 .focus__col .focus__no {
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
 }
 
 .focus__name {
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 36px;
+  font-weight: 500;
   line-height: 1.2;
   text-align: left;
-  color: #00628e;
+  color: #077bb6;
   margin-bottom: 10px;
 }
 
 .focus__no {
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 500;
   line-height: 1.2;
   text-align: left;
-  color: #00628e;
+  color: #077bb6;
   margin-bottom: 15px;
 }
 

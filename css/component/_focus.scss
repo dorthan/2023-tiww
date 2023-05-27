@@ -6,7 +6,7 @@
     &__title {
 
         &-img {
-            height: 50px;
+            height: 70px;
             margin-right: 5px;
             margin-left: 30px;
         }
@@ -15,7 +15,7 @@
         display: flex;
         justify-content: start;
         align-items: center;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bold;
         line-height: 1;
         color: #005699;
@@ -31,7 +31,7 @@
     }
 
     &__text {
-        font-size: 17px;
+        font-size: 24px;
         font-weight: 300;
         line-height: 1.5;
         text-align: justify;
@@ -65,32 +65,32 @@
             }
 
             &__name {
-                font-size: 20px;
+                font-size: 28px;
                 text-align: center;
             }
 
             &__no {
-                font-size: 18px;
+                font-size: 24px;
                 text-align: center;
             }
         }
     }
 
     &__name {
-        font-size: 24px;
-        font-weight: 400;
+        font-size: 36px;
+        font-weight: 500;
         line-height: 1.2;
         text-align: left;
-        color: #00628e;
+        color: #077bb6;
         margin-bottom: 10px;
     }
 
     &__no {
-        font-size: 24px;
-        font-weight: 400;
+        font-size: 30px;
+        font-weight: 500;
         line-height: 1.2;
         text-align: left;
-        color: #00628e;
+        color: #077bb6;
         margin-bottom: 15px;
     }
 }

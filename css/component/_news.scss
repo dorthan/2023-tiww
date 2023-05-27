@@ -6,7 +6,7 @@
 
     &__title {
         &-img {
-            height: 50px;
+            height: 70px;
             margin-right: 5px;
             margin-left: 30px;
         }
@@ -15,7 +15,7 @@
         display: flex;
         justify-content: start;
         align-items: center;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bold;
         line-height: 1;
         color: #005699;
@@ -27,7 +27,7 @@
     }
 
     &__subtitle {
-        font-size: 24px;
+        font-size: 38px;
         font-weight: 400;
         line-height: 1.2;
         text-align: left;
@@ -36,7 +36,7 @@
     }
 
     &__text {
-        font-size: 17px;
+        font-size: 24px;
         font-weight: 300;
         line-height: 1.5;
         text-align: justify;
@@ -45,6 +45,7 @@
     }
 
     &__item {
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
