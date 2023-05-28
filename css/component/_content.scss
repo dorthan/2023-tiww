@@ -113,13 +113,13 @@
 
          &:hover {
             color: #FFF;
-            background: #0081bc url(../img/bullet_list_01.svg) no-repeat 5px center;
+            background: url(../img/bullet_list_01.svg) no-repeat 5px center, linear-gradient(to right, #21bcae 0%, #18609b 100%);
             background-size: auto;
             text-decoration: none;
          }
          &.active {
             color: #FFF;
-            background: #40beb0 url(../img/bullet_list_01.svg) no-repeat 5px center;
+            background: url(../img/bullet_list_01.svg) no-repeat 5px center, linear-gradient(to right, #21bcae 0%, #18609b 100%);
             background-size: auto;
             text-decoration: none;
             pointer-events: none;
