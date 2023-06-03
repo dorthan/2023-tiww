@@ -10900,7 +10900,7 @@ img {
 }
 
 .header__no {
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   font-weight: bold;
   line-height: 1;
@@ -10908,7 +10908,7 @@ img {
 }
 
 .header__en {
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
   font-weight: 100;
   line-height: 1;
@@ -10920,8 +10920,8 @@ img {
 }
 
 .header__slogan {
-  color: #FFF;
-  width: calc( 105% + 7px);
+  color: #fff;
+  width: calc(110% + 7px);
   font-size: 63px;
   font-weight: 500;
   line-height: 1;
@@ -10932,26 +10932,6 @@ img {
 }
 
 .header__slogan-en {
-  color: #f3ad0f;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 1;
-  margin-bottom: 15px;
-}
-
-.header__slogan_en {
-  color: #FFF;
-  width: calc( 110% + 7px);
-  font-size: 42px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 2px;
-  text-align: right;
-  margin: 15px -5px 80px 0;
-  white-space: nowrap;
-}
-
-.header__slogan_en-en {
   color: #f3ad0f;
   font-size: 36px;
   font-weight: 400;
@@ -10986,7 +10966,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #FFF;
+  color: #fff;
   font-weight: 400;
   line-height: 1;
 }
@@ -11031,6 +11011,14 @@ img {
 
 .header .nav__tools a {
   margin-right: 10px;
+}
+
+.header-en .header__slogan {
+  font-size: 42px;
+}
+
+.header-en .header .nav-link {
+  font-size: 17px;
 }
 
 .footer {

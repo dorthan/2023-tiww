@@ -16,8 +16,6 @@
         padding-bottom: 30px;
     }
 
- 
-
     &__right {
         display: flex;
         flex-direction: column;
@@ -27,26 +25,26 @@
         padding-bottom: 60px;
     }
 
-    &__no{
-        color: #FFF;
+    &__no {
+        color: #fff;
         font-size: 20px;
         font-weight: bold;
         line-height: 1;
         margin-bottom: 20px;
     }
-    &__en{
-        color: #FFF;
+    &__en {
+        color: #fff;
         font-size: 18px;
         font-weight: 100;
         line-height: 1;
         margin-bottom: 50px;
-        a{
+        a {
             color: #fff;
         }
     }
-    &__slogan{
-        color: #FFF;
-        width: calc( 105% + 7px );
+    &__slogan {
+        color: #fff;
+        width: calc(110% + 7px);
         font-size: 63px;
         font-weight: 500;
         line-height: 1;
@@ -54,7 +52,7 @@
         text-align: right;
         margin: 15px -5px 80px 0;
         white-space: nowrap;
-        &-en{
+        &-en {
             color: #f3ad0f;
             font-size: 36px;
             font-weight: 400;
@@ -62,48 +60,30 @@
             margin-bottom: 15px;
         }
     }
-    &__slogan_en{
-        color: #FFF;
-        width: calc( 110% + 7px );
-        font-size: 42px;
-        font-weight: 500;
-        line-height: 1;
-        letter-spacing: 2px;
-        text-align: right;
-        margin: 15px -5px 80px 0;
-        white-space: nowrap;
-        &-en{
-            color: #f3ad0f;
-            font-size: 36px;
-            font-weight: 400;
-            line-height: 1;
-            margin-bottom: 15px;
-        }
-    }
-    &__date{
+    &__date {
         color: #0993d2;
         font-size: 42px;
         font-weight: 500;
         line-height: 1;
         margin-bottom: 10px;
     }
-    &__location{
+    &__location {
         color: #0993d2;
         font-size: 48px;
         font-weight: 500;
         line-height: 1;
         margin-bottom: 20px;
     }
-    
-    .nav{
+
+    .nav {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        color: #FFF;
+        color: #fff;
         font-weight: 400;
         line-height: 1;
-      
+
         &-link {
             font-size: 20px;
             font-weight: 400;
@@ -137,12 +117,22 @@
         }
 
         &__tools {
-        
             a {
                 margin-right: 10px;
             }
         }
     }
+}
+.header-en {
+    .header {
+        &__slogan {
+            font-size: 42px;
+        }
 
-
+        .nav {
+            &-link {
+                font-size: 17px;
+            }
+        }
+    }
 }
