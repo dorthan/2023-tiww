@@ -11443,7 +11443,7 @@ img {
 }
 
 .content__theme {
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 500;
   line-height: 1;
   color: #005699;
@@ -11460,30 +11460,30 @@ img {
 }
 
 .content__theme-img {
-  width: 90px;
+  width: 60px;
   margin-right: 10px;
 }
 
 .content__title {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 500;
   line-height: 1.2;
   color: #0081bc;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .content__subtitle {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 1.2;
   color: #0081bc;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .content__subtitle-info {
   color: #0081bc;
   clear: auto;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   padding-left: 52px;
   margin: 15px 0;
@@ -11494,7 +11494,7 @@ img {
 .content__subtitle-area {
   color: #0081bc;
   clear: auto;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   margin: 30px 0 10px 0;
   display: -webkit-box;
@@ -11521,7 +11521,7 @@ img {
 .content__text {
   clear: both;
   color: #3c3c3c;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
   text-align: justify;
@@ -11670,6 +11670,7 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
+  text-align: left;
 }
 
 .photo.float-left {
