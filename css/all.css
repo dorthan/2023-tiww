@@ -11270,7 +11270,7 @@ img {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  color: #FFF;
+  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -11308,6 +11308,12 @@ img {
   background: -webkit-gradient(linear, left top, left bottom, from(#21bcae), to(#18609b));
   background: linear-gradient(to bottom, #21bcae 0%, #18609b 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.news .btn__more-w {
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
 }
 
 .focus {
