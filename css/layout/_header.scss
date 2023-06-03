@@ -62,6 +62,24 @@
             margin-bottom: 15px;
         }
     }
+    &__slogan_en{
+        color: #FFF;
+        width: calc( 110% + 7px );
+        font-size: 42px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: 2px;
+        text-align: right;
+        margin: 15px -5px 80px 0;
+        white-space: nowrap;
+        &-en{
+            color: #f3ad0f;
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 1;
+            margin-bottom: 15px;
+        }
+    }
     &__date{
         color: #0993d2;
         font-size: 42px;
