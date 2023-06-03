@@ -11263,7 +11263,7 @@ img {
 }
 
 .news__subtitle {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   color: #0081bc;
@@ -11299,7 +11299,7 @@ img {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  padding: 20px 25px;
+  padding: 25px;
   border-radius: 10px;
   background: -webkit-gradient(linear, left top, left bottom, from(#21bcae), to(#18609b));
   background: linear-gradient(to bottom, #21bcae 0%, #18609b 100%);
@@ -11485,10 +11485,10 @@ img {
   clear: auto;
   font-size: 20px;
   font-weight: 500;
-  padding-left: 52px;
+  padding-left: 40px;
   margin: 15px 0;
   background: url(../img/bullet_info_indi.svg) no-repeat 0 0;
-  background-size: 42px;
+  background-size: 30px;
 }
 
 .content__subtitle-area {
