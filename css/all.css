@@ -10833,11 +10833,11 @@ p {
 }
 
 .wrap {
-  min-width: 1440px !important;
+  min-width: 992px !important;
 }
 
 .container {
-  min-width: 1440px !important;
+  min-width: 992px !important;
 }
 
 img {
