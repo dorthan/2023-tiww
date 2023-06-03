@@ -10838,6 +10838,7 @@ p {
 
 .container {
   min-width: 992px !important;
+  max-width: 992px !important;
 }
 
 img {
