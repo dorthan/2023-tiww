@@ -10838,6 +10838,9 @@ p {
 
 .container {
   min-width: 992px !important;
+}
+
+main .container {
   max-width: 992px !important;
 }
 
